@@ -1,0 +1,541 @@
+[ 2017-01-24T14:29:43+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004296s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-01-24T14:29:43+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0229s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0199s ]
+
+[ 2017-01-24T14:29:43+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003444s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0119s ]
+
+[ 2017-01-24T14:29:55+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:29:55+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005215s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-01-24T14:29:55+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003439s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:29:56+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:29:56+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004601s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-01-24T14:29:56+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005918s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:05+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003807s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-01-24T14:30:05+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:32+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.1838s ]
+
+[ 2017-01-24T14:30:32+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0006s ]
+
+[ 2017-01-24T14:30:38+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002852s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:38+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002701s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0408s ]
+
+[ 2017-01-24T14:30:38+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:30:38+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0110s ]
+
+[ 2017-01-24T14:30:39+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003470s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0001s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T14:30:39+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0234s ]
+
+[ 2017-01-24T14:30:50+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:50+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:30:50+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002879s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:30:50+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:50+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003529s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T14:30:50+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003679s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:30:58+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:30:58+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-24T14:30:58+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002579s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:30:58+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0004s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:58+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:30:58+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0006s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003299s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003734s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002600s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T14:30:59+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:31:00+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005679s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:31:00+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005616s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0001s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:31:00+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002657s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:31:00+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002833s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:31:00+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:31:00+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:31:16+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:31:16+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003663s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:31:16+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-24T14:31:16+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002674s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:31:16+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0001s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T14:31:16+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:51:44+08:00 ] 127.0.0.1 /order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:51:45+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003370s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T14:51:55+08:00 ] 127.0.0.1 /orderState.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+
+[ 2017-01-24T14:51:55+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:52:24+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0005s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0014s ]
+
+[ 2017-01-24T14:52:25+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0007s ]
+
+[ 2017-01-24T14:52:25+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T14:58:15+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T14:58:15+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003360s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0003s ]
+
+[ 2017-01-24T14:58:15+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004066s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0005s ]
+
+[ 2017-01-24T15:02:06+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0009s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0004s ]
+
+[ 2017-01-24T15:02:06+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T15:02:06+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0005s ]
+
+[ 2017-01-24T15:02:09+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002659s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T15:02:09+08:00 ] 127.0.0.1 /addressList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002286s ]
+SQL: SELECT * FROM `sun_address` WHERE `member_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T15:02:09+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002740s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-24T15:02:09+08:00 ] 127.0.0.1 /childRegion.html?parent_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+SQL: SELECT * FROM `sun_region` WHERE `parent_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-01-24T15:02:09+08:00 ] 127.0.0.1 /shippingList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: SELECT * FROM `sun_shipping` WHERE `enabled` = 1  [ RunTime:0.0010s ]
+
+[ 2017-01-24T15:02:09+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0001s ]
+
+[ 2017-01-24T15:02:29+08:00 ] 127.0.0.1 /order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-01-24T15:02:39+08:00 ] 127.0.0.1 /orderState.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+
+[ 2017-01-24T15:02:39+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003282s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0004s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0010s ]
+
+[ 2017-01-24T15:02:39+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002206s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T15:03:55+08:00 ] 127.0.0.1 /cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002924s ]
+SQL: SELECT `warelist` FROM `sun_cart` WHERE `member_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0006s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('5','6') GROUP BY p.product_id  [ RunTime:0.0003s ]
+
+[ 2017-01-24T15:03:55+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003339s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-24T15:03:55+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003785s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0006s ]
+

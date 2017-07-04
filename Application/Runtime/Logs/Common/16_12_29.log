@@ -1,0 +1,45 @@
+[ 2016-12-29T00:02:42+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/css/jquery.fileupload.css
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:02:42+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/js/vendor/jquery.ui.widget.js
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:02:42+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/js/jquery.iframe-transport.js
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:02:42+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/js/jquery.fileupload.js
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:02:49+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/css/jquery.fileupload.css
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:02:49+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/js/vendor/jquery.ui.widget.js
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:02:49+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/js/jquery.iframe-transport.js
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:02:49+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/js/jquery.fileupload.js
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T00:09:04+08:00 ] 127.0.0.1 /php4/buyplus/Public/Back/jqueryFileUpload/css/jquery.fileupload.css
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T20:31:47+08:00 ] 127.0.0.1 /php4/buyplus/Public/Thumb/$data['image_thumb']
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T23:21:22+08:00 ] 127.0.0.1 /php4/buyplus/Public/Thumb/$data['image_thumb']
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T23:31:59+08:00 ] 127.0.0.1 /php4/buyplus/Public/Thumb/$data['image_thumb']
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T23:40:12+08:00 ] 127.0.0.1 /php4/buyplus/Public/Thumb/$data['image_thumb']
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T23:45:06+08:00 ] 127.0.0.1 /php4/buyplus/Public/Thumb/$data['image_thumb']
+ERR: 无法加载模块:Public
+
+[ 2016-12-29T23:45:09+08:00 ] 127.0.0.1 /php4/buyplus/Public/Thumb/$data['image_thumb']
+ERR: 无法加载模块:Public
+

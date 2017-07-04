@@ -1,0 +1,151 @@
+[ 2017-01-05T00:15:10+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:27:44+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:27:44+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:29:27+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:29:27+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:29:29+08:00 ] 127.0.0.1 /breadcrumb.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+SQL: SELECT `category_id` FROM `sun_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` = 40 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-01-05T00:29:29+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-05T00:29:29+08:00 ] 127.0.0.1 /goods/show.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-05T00:29:32+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:29:32+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002587s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:37:19+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0008s ]
+
+[ 2017-01-05T00:37:19+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004031s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:37:23+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:37:23+08:00 ] 127.0.0.1 /breadcrumb.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+SQL: SELECT `category_id` FROM `sun_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-01-05T00:37:23+08:00 ] 127.0.0.1 /goods/show.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002062s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2017-01-05T00:52:27+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001905s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-05T00:52:27+08:00 ] 127.0.0.1 /breadcrumb.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+SQL: SELECT `category_id` FROM `sun_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` = 40 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-01-05T00:52:27+08:00 ] 127.0.0.1 /goods/show.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+SQL: SELECT g.*,ss.title stock_status_title FROM sun_goods g left join sun_stock_status ss using(stock_status_id)  WHERE `status` = '1' AND `deleted` = '0' AND `goods_id` = '3' LIMIT 1   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sun_gallery` WHERE ( 1=1 AND goods_id='3' )  [ RunTime:0.0275s ]
+SQL: SELECT p.product_id,p.promoted,pd.value price_drift,`product_price`,`product_quantity`,group_concat(a.attribute_title,':',ao.option_value) as `option` FROM sun_product p left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id) left join sun_price_drift pd using(price_drift_id)  WHERE `goods_id` = '3' AND `enabled` = 1 GROUP BY p.product_id  [ RunTime:0.1928s ]
+
+[ 2017-01-05T01:04:01+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-05T01:04:01+08:00 ] 127.0.0.1 /goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-01-05T01:13:30+08:00 ] 127.0.0.1 /category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002762s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-01-05T01:13:30+08:00 ] 127.0.0.1 /breadcrumb.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006391s ]
+SQL: SELECT `category_id` FROM `sun_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` = 40 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-01-05T01:13:30+08:00 ] 127.0.0.1 /goods/show.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002923s ]
+SQL: SELECT g.*,ss.title stock_status_title FROM sun_goods g left join sun_stock_status ss using(stock_status_id)  WHERE `status` = '1' AND `deleted` = '0' AND `goods_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_gallery` WHERE ( 1=1 AND goods_id='3' )  [ RunTime:0.0003s ]
+SQL: SELECT p.product_id,p.promoted,pd.value price_drift,`product_price`,`product_quantity`,group_concat(a.attribute_title,':',ao.option_value) as `option` FROM sun_product p left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id) left join sun_price_drift pd using(price_drift_id)  WHERE `goods_id` = '3' AND `enabled` = 1 GROUP BY p.product_id  [ RunTime:0.0003s ]
+

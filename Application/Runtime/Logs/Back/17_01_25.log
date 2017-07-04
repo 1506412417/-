@@ -1,0 +1,6 @@
+[ 2017-01-25T16:29:45+08:00 ] 127.0.0.1 /entry.php/Back/sole/set
+ERR: 无法加载控制器:Sole
+
+[ 2017-01-25T18:13:17+08:00 ] 127.0.0.1 /entry.php/Back/setting/list
+ERR: 非法操作:list
+

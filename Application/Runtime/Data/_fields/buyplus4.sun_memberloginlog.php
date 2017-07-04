@@ -1,0 +1,1 @@
+a:7:{i:0;s:19:"member_login_log_id";i:1;s:9:"member_id";i:2;s:10:"login_time";i:3;s:8:"login_ip";i:4;s:8:"login_ua";s:3:"_pk";s:19:"member_login_log_id";s:5:"_type";a:5:{s:19:"member_login_log_id";s:16:"int(10) unsigned";s:9:"member_id";s:16:"int(10) unsigned";s:10:"login_time";s:7:"int(11)";s:8:"login_ip";s:16:"int(10) unsigned";s:8:"login_ua";s:12:"varchar(255)";}}

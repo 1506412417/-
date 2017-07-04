@@ -1,0 +1,1 @@
+a:6:{i:0;s:7:"cart_id";i:1;s:9:"member_id";i:2;s:10:"cart_title";i:3;s:8:"warelist";s:3:"_pk";s:7:"cart_id";s:5:"_type";a:4:{s:7:"cart_id";s:16:"int(10) unsigned";s:9:"member_id";s:16:"int(10) unsigned";s:10:"cart_title";s:11:"varchar(32)";s:8:"warelist";s:4:"text";}}

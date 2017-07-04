@@ -1,0 +1,151 @@
+[ 2017-02-15T14:07:47+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003015s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-15T14:07:47+08:00 ] 127.0.0.1 /php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0012s ]
+
+[ 2017-02-15T14:07:47+08:00 ] 127.0.0.1 /php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004308s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0010s ]
+
+[ 2017-02-15T14:07:52+08:00 ] 127.0.0.1 /php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-02-15T14:07:52+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002763s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-15T14:07:52+08:00 ] 127.0.0.1 /php4/buyplus/breadcrumb.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003064s ]
+SQL: SELECT `category_id` FROM `sun_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` = 40 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-02-15T14:07:52+08:00 ] 127.0.0.1 /php4/buyplus/goods/show.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+SQL: SELECT g.*,ss.title stock_status_title FROM sun_goods g left join sun_stock_status ss using(stock_status_id)  WHERE `status` = '1' AND `deleted` = '0' AND `goods_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `sun_gallery` WHERE ( 1=1 AND goods_id='3' )  [ RunTime:0.0007s ]
+SQL: SELECT p.product_id,p.promoted,pd.value price_drift,`product_price`,`product_quantity`,group_concat(a.attribute_title,':',ao.option_value) as `option` FROM sun_product p left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id) left join sun_price_drift pd using(price_drift_id)  WHERE `goods_id` = '3' AND `enabled` = 1 GROUP BY p.product_id  [ RunTime:0.0011s ]
+SQL: SELECT a.attribute_title,at.attribute_type_title,ga.value,group_concat(ao.option_value) valuelist FROM sun_goods_attribute ga left join sun_attribute a using(attribute_id) left join sun_attribute_type at using(attribute_type_id) left join sun_goods_attribute_option gao using(goods_attribute_id) left join sun_attribute_option ao using(attribute_option_id)  WHERE `goods_id` = '3' GROUP BY ga.attribute_id  [ RunTime:0.0008s ]
+
+[ 2017-02-15T14:07:55+08:00 ] 127.0.0.1 /php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002035s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0006s ]
+
+[ 2017-02-15T14:07:55+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003142s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-15T14:07:55+08:00 ] 127.0.0.1 /php4/buyplus/breadcrumb.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+SQL: SELECT `category_id` FROM `sun_goods` WHERE `goods_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` = 40 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-02-15T14:07:55+08:00 ] 127.0.0.1 /php4/buyplus/goods/show.html?goods_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002679s ]
+SQL: SELECT g.*,ss.title stock_status_title FROM sun_goods g left join sun_stock_status ss using(stock_status_id)  WHERE `status` = '1' AND `deleted` = '0' AND `goods_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_gallery` WHERE ( 1=1 AND goods_id='3' )  [ RunTime:0.0003s ]
+SQL: SELECT p.product_id,p.promoted,pd.value price_drift,`product_price`,`product_quantity`,group_concat(a.attribute_title,':',ao.option_value) as `option` FROM sun_product p left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id) left join sun_price_drift pd using(price_drift_id)  WHERE `goods_id` = '3' AND `enabled` = 1 GROUP BY p.product_id  [ RunTime:0.0002s ]
+SQL: SELECT a.attribute_title,at.attribute_type_title,ga.value,group_concat(ao.option_value) valuelist FROM sun_goods_attribute ga left join sun_attribute a using(attribute_id) left join sun_attribute_type at using(attribute_type_id) left join sun_goods_attribute_option gao using(goods_attribute_id) left join sun_attribute_option ao using(attribute_option_id)  WHERE `goods_id` = '3' GROUP BY ga.attribute_id  [ RunTime:0.0002s ]
+
+[ 2017-02-15T14:08:03+08:00 ] 127.0.0.1 /php4/buyplus/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+
+[ 2017-02-15T14:08:03+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0004s ]
+
+[ 2017-02-15T14:08:12+08:00 ] 127.0.0.1 /php4/buyplus/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+
+[ 2017-02-15T14:08:12+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('6') GROUP BY p.product_id  [ RunTime:0.0008s ]
+
+[ 2017-02-15T14:08:17+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002369s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('6') GROUP BY p.product_id  [ RunTime:0.0002s ]
+
+[ 2017-02-15T14:08:17+08:00 ] 127.0.0.1 /php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0003s ]
+
+[ 2017-02-15T14:08:54+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003027s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0002s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('6') GROUP BY p.product_id  [ RunTime:0.0003s ]
+
+[ 2017-02-15T14:08:54+08:00 ] 127.0.0.1 /php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0014s ]
+
+[ 2017-02-15T14:08:54+08:00 ] 127.0.0.1 /php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009425s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-02-15T14:09:05+08:00 ] 127.0.0.1 /php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002867s ]
+SQL: SELECT `goods_id`,`image_thumb`,`price`,`name` FROM `sun_goods` WHERE `goods_id` IN ('3')  [ RunTime:0.0003s ]
+SQL: SELECT g.goods_id,g.image_thumb,g.price,g.name,p.product_id,p.product_price,pd.value price_drift,group_concat(a.attribute_title,":",ao.option_value) `option` FROM sun_goods g left join sun_product p using(goods_id) left join sun_price_drift pd using(price_drift_id) left join sun_product_goods_attribute_option pgao using(product_id) left join sun_goods_attribute_option gao using(goods_attribute_option_id) left join sun_attribute_option ao using(attribute_option_id) left join sun_attribute a using(attribute_id)  WHERE p.product_id IN ('6') GROUP BY p.product_id  [ RunTime:0.0008s ]
+
+[ 2017-02-15T14:09:05+08:00 ] 127.0.0.1 /php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0006s ]
+
+[ 2017-02-15T14:09:05+08:00 ] 127.0.0.1 /php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004522s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+

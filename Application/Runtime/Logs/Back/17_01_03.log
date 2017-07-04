@@ -1,0 +1,132 @@
+[ 2017-01-03T11:38:35+08:00 ] 127.0.0.1 /entry.php/
+ERR: 无法加载控制器:Index
+
+[ 2017-01-03T11:38:48+08:00 ] 127.0.0.1 /entry.php/
+ERR: 无法加载控制器:Index
+
+[ 2017-01-03T11:39:15+08:00 ] 127.0.0.1 /entry.php/
+ERR: 无法加载控制器:Index
+
+[ 2017-01-03T11:40:46+08:00 ] 127.0.0.1 /entry.php/
+ERR: 无法加载控制器:Index
+
+[ 2017-01-03T11:43:03+08:00 ] 127.0.0.1 /entry.php/back/
+ERR: 无法加载控制器:Index
+
+[ 2017-01-03T11:43:17+08:00 ] 127.0.0.1 /entry.php/back/category/
+ERR: 非法操作:index
+
+[ 2017-01-03T17:51:45+08:00 ] 127.0.0.1 /entry.php/Back/Goods/edit.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `sun_goods_attribute_option` WHERE `goods_attribute_id` IN ()
+
+[ 2017-01-03T17:53:06+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '1'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='2' )  [ RunTime:0.0444s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='3' )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='4' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='5' )  [ RunTime:0.0002s ]
+
+[ 2017-01-03T17:53:52+08:00 ] 127.0.0.1 /entry.php/Back/Goods/edit.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : DELETE FROM `sun_goods_attribute_option` WHERE `goods_attribute_id` IN ()
+
+[ 2017-01-03T18:04:13+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/imageUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-03T18:06:21+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/galleriesUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+
+[ 2017-01-03T18:06:21+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/galleriesUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002821s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+
+[ 2017-01-03T18:06:22+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/galleriesUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003590s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: x D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+NOTIC: [8] Undefined variable: y D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 270 行.
+
+[ 2017-01-03T18:06:28+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003433s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '1'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='2' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='3' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='4' )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='5' )  [ RunTime:0.0002s ]
+
+[ 2017-01-03T18:07:22+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/addProduct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: INSERT INTO `sun_product` (`goods_id`,`product_quantity`,`price_drift_id`,`product_price`,`promoted`,`enabled`) VALUES ('3','40','3','5000','0','1') [ RunTime:0.0637s ]
+SQL: INSERT INTO `sun_product_goods_attribute_option` (`product_id`,`goods_attribute_option_id`) VALUES ('5','2'),('5','4') [ RunTime:0.0671s ]
+SQL: SELECT * FROM `sun_goods_attribute_option` left join sun_attribute_option using(attribute_option_id)  WHERE `goods_attribute_option_id` = '2' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `sun_goods_attribute_option` left join sun_attribute_option using(attribute_option_id)  WHERE `goods_attribute_option_id` = '4' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sun_price_drift`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002033s ]
+
+[ 2017-01-03T18:07:48+08:00 ] 127.0.0.1 /entry.php/Back/Goods/ajax/operate/addProduct.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+SQL: INSERT INTO `sun_product` (`goods_id`,`product_quantity`,`price_drift_id`,`product_price`,`promoted`,`enabled`) VALUES ('3','45','1','500','0','1') [ RunTime:0.0639s ]
+SQL: INSERT INTO `sun_product_goods_attribute_option` (`product_id`,`goods_attribute_option_id`) VALUES ('6','3'),('6','5') [ RunTime:0.0317s ]
+SQL: SELECT * FROM `sun_goods_attribute_option` left join sun_attribute_option using(attribute_option_id)  WHERE `goods_attribute_option_id` = '3' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sun_goods_attribute_option` left join sun_attribute_option using(attribute_option_id)  WHERE `goods_attribute_option_id` = '5' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `sun_price_drift`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002883s ]
+

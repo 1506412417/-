@@ -1,0 +1,18 @@
+[ 2017-02-20T19:51:49+08:00 ] 127.0.0.1 /daniu/php4/buyplus/entry.php/Back/Goods/ajax/operate/imageUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `sun_role_user` [ RunTime:0.0051s ]
+SQL: SELECT ru.user_id,na.id,na.name action_name,nc.name controller_name,nm.name module_name FROM sun_role_user ru join sun_access a on ru.role_id=a.role_id left join sun_node na on na.id=a.node_id left join sun_node nc on nc.id=na.pid left join sun_node nm on nm.id=nc.pid  WHERE ru.user_id = '1'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004110s ]
+
+[ 2017-02-20T19:51:57+08:00 ] 127.0.0.1 /daniu/php4/buyplus/entry.php/Back/Goods/ajax/operate/imageUpload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007730s ]
+SQL: SHOW COLUMNS FROM `sun_role_user` [ RunTime:0.0063s ]
+SQL: SELECT ru.user_id,na.id,na.name action_name,nc.name controller_name,nm.name module_name FROM sun_role_user ru join sun_access a on ru.role_id=a.role_id left join sun_node na on na.id=a.node_id left join sun_node nc on nc.id=na.pid left join sun_node nm on nm.id=nc.pid  WHERE ru.user_id = '1'  [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+

@@ -1,0 +1,380 @@
+[ 2016-12-30T13:12:26+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/attributetype/list
+ERR: 无法加载控制器:Attributetype
+
+[ 2016-12-30T19:57:52+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/goods
+ERR: 非法操作:index
+
+[ 2016-12-30T21:22:04+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:22:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:26:52+08:00 ] 127.0.0.1 /php4/buyplus/back/goods/attribute
+ERR: 非法操作:attribute
+
+[ 2016-12-30T21:28:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:30:21+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:30:21+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:52:46+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:54:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:56:34+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:56:50+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:56:52+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:56:54+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T21:58:52+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T22:00:16+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T22:00:41+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+ERR: Think\Model:relation方法不存在！
+
+[ 2016-12-30T22:02:46+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+
+[ 2016-12-30T22:02:52+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+
+[ 2016-12-30T22:02:54+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001455s ]
+
+[ 2016-12-30T22:02:55+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001912s ]
+
+[ 2016-12-30T22:02:59+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+
+[ 2016-12-30T22:03:00+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-12-30T22:03:02+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+
+[ 2016-12-30T22:03:04+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+
+[ 2016-12-30T22:03:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-12-30T22:03:45+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+
+[ 2016-12-30T22:03:55+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+
+[ 2016-12-30T22:04:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-12-30T22:04:11+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002611s ]
+
+[ 2016-12-30T22:10:42+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+
+[ 2016-12-30T22:10:50+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+
+[ 2016-12-30T22:12:06+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-12-30T22:12:13+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+
+[ 2016-12-30T22:12:45+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+
+[ 2016-12-30T22:12:52+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+
+[ 2016-12-30T22:13:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002621s ]
+
+[ 2016-12-30T22:13:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+
+[ 2016-12-30T22:13:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003309s ]
+
+[ 2016-12-30T22:13:10+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003192s ]
+
+[ 2016-12-30T22:13:26+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+
+[ 2016-12-30T22:13:28+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-12-30T22:13:30+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+
+[ 2016-12-30T22:15:02+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+
+[ 2016-12-30T22:15:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+
+[ 2016-12-30T22:15:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+
+[ 2016-12-30T22:15:10+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+
+[ 2016-12-30T22:15:17+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+
+[ 2016-12-30T22:15:26+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+
+[ 2016-12-30T22:15:31+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+
+[ 2016-12-30T22:15:41+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+
+[ 2016-12-30T22:17:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002549s ]
+
+[ 2016-12-30T22:17:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-30T22:17:10+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+
+[ 2016-12-30T22:17:12+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+
+[ 2016-12-30T22:17:13+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001883s ]
+
+[ 2016-12-30T22:18:00+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+
+[ 2016-12-30T22:18:01+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-12-30T22:18:02+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+
+[ 2016-12-30T22:18:03+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001536s ]
+
+[ 2016-12-30T22:18:06+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-12-30T22:20:38+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+
+[ 2016-12-30T22:20:39+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+
+[ 2016-12-30T22:20:42+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+
+[ 2016-12-30T22:22:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '2'  [ RunTime:0.0005s ]
+
+[ 2016-12-30T22:22:12+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '3'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='1' )  [ RunTime:0.0005s ]
+
+[ 2016-12-30T22:22:17+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '1'  [ RunTime:0.0004s ]
+
+[ 2016-12-30T22:23:10+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '3'  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='1' )  [ RunTime:0.0003s ]
+
+[ 2016-12-30T22:35:39+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Attribute/add.html
+ERR: 1366:Incorrect integer value: '' for column 'sort_number' at row 1
+ [ SQL语句 ] : INSERT INTO `sun_attribute` (`attribute_title`,`type_id`,`attribute_type_id`,`sort_number`) VALUES ('存储空间','1','3','')
+
+[ 2016-12-30T22:36:28+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/GOODS
+ERR: 无法加载控制器:GOODS
+
+[ 2016-12-30T22:36:48+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '1'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='2' )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='4' )  [ RunTime:0.0002s ]
+
+[ 2016-12-30T22:42:29+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Goods/ajax/operate/getAttrList.html?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: SELECT * FROM sun_attribute a left join sun_attribute_type at using(attribute_type_id)  WHERE `type_id` = '1'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='2' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='3' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='4' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_attribute_option` WHERE ( 1=1 AND attribute_id='5' )  [ RunTime:0.0003s ]
+

@@ -1,0 +1,139 @@
+[ 2017-02-24T09:05:27+08:00 ] 127.0.0.1 /daniu/php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-24T09:05:27+08:00 ] 127.0.0.1 /daniu/php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0346s ]
+
+[ 2017-02-24T09:05:31+08:00 ] 127.0.0.1 /daniu/php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-02-24T09:05:31+08:00 ] 127.0.0.1 /daniu/php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003932s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-24T09:05:31+08:00 ] 127.0.0.1 /daniu/php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003765s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0328s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0202s ]
+
+[ 2017-02-24T09:05:31+08:00 ] 127.0.0.1 /daniu/php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-02-24T09:05:58+08:00 ] 127.0.0.1 /daniu/php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-24T09:05:58+08:00 ] 127.0.0.1 /daniu/php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-02-24T09:05:58+08:00 ] 127.0.0.1 /daniu/php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002755s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0004s ]
+
+[ 2017-02-24T09:06:17+08:00 ] 127.0.0.1 /daniu/php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0003s ]
+
+[ 2017-02-24T09:06:17+08:00 ] 127.0.0.1 /daniu/php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0005s ]
+
+[ 2017-02-24T09:06:17+08:00 ] 127.0.0.1 /daniu/php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-24T09:12:49+08:00 ] 127.0.0.1 /daniu/php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-24T09:12:49+08:00 ] 127.0.0.1 /daniu/php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002824s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0006s ]
+
+[ 2017-02-24T09:12:55+08:00 ] 127.0.0.1 /daniu/php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002901s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-02-24T09:13:23+08:00 ] 127.0.0.1 /daniu/php4/buyplus/ertry.php/back/goods/list
+ERR: 无法加载控制器:Ertry.php
+
+[ 2017-02-24T09:13:51+08:00 ] 127.0.0.1 /daniu/php4/buyplus/ertry.php
+ERR: 无法加载控制器:Ertry.php
+
+[ 2017-02-24T09:13:59+08:00 ] 127.0.0.1 /daniu/php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-24T09:13:59+08:00 ] 127.0.0.1 /daniu/php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0005s ]
+
+[ 2017-02-24T09:14:05+08:00 ] 127.0.0.1 /daniu/php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+
+[ 2017-02-24T09:14:06+08:00 ] 127.0.0.1 /daniu/php4/buyplus/cartInfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+NOTIC: [8] Undefined variable: wareList D:\tnwamp\Apache24\htdocs\daniu\php4\buyplus\Application\Home\Cart\Cart.class.php 第 214 行.
+
+[ 2017-02-24T09:14:06+08:00 ] 127.0.0.1 /daniu/php4/buyplus/category/nestedList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SELECT * FROM `sun_category` WHERE `category_id` <> '1' AND `is_used` = 1 AND `is_nav` = 1 ORDER BY sort_number  [ RunTime:0.0003s ]
+
+[ 2017-02-24T09:14:11+08:00 ] 127.0.0.1 /daniu/php4/buyplus/goods/new.html?limit=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001305s ]
+SQL: SELECT `value` FROM `sun_setting` WHERE `key` = 'goods_new_number' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `sun_goods` WHERE `status` = 1 AND `deleted` = 0 ORDER BY created_at desc, sort_number LIMIT 4   [ RunTime:0.0004s ]
+

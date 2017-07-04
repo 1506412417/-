@@ -1,0 +1,55 @@
+[ 2016-12-21T01:06:18+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sunxu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006280s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sunxu' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003349s ]
+
+[ 2016-12-21T01:06:36+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/edit/brand_id/1.html
+ERR: ÈùûÊ≥ïÊìç‰Ωú:edit
+
+[ 2016-12-21T01:06:47+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sunxulong
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004492s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sunxulong' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003293s ]
+
+[ 2016-12-21T01:26:06+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=suna
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003278s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'suna' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2016-12-21T17:20:17+08:00 ] 127.0.0.1 /php4/buyplus/back/brand/list
+ERR: SQLSTATE[HY000] [2002] ”…”⁄ƒø±Íº∆À„ª˙ª˝º´æ‹æ¯£¨Œﬁ∑®¡¨Ω”°£
+
+
+[ 2016-12-21T21:17:36+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/edit/brand_id/10.html
+ERR: Think\Controller:dispalyÊñπÊ≥ï‰∏çÂ≠òÂú®ÔºÅ
+
+[ 2016-12-21T21:26:11+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sunban&brand_id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001346s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sunban' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-12-21T21:38:34+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=%E4%B9%94%E4%BA%8C%E6%A0%8B&brand_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001181s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = '‰πî‰∫åÊ†ã' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+

@@ -1,0 +1,142 @@
+<extend name="Common/layout" />
+
+<block name="content">
+
+    <div id="content">
+        <div class="page-header">
+            <div class="container-fluid">
+                <div class="pull-right">
+                    <button type="submit" form="form-setting" data-toggle="tooltip" title="保存" class="btn btn-primary"> <i class="fa fa-save"></i>
+                    </button>
+                    <a href="{:U('Manage/index')}" data-toggle="tooltip" title="取消" class="btn btn-default"> <i class="fa fa-reply"></i>
+                    </a>
+                </div>
+                <h1>系统设置</h1>
+                <ul class="breadcrumb">
+                    <li>
+                        <a href="{:U('Manage/index')}">首页</a>
+                    </li>
+                    <li>
+                        <a href="#">系统设置</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <i class="fa fa-pencil"></i>
+                        编辑系统设置
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <form action="{:U('update')}" method="post" enctype="multipart/form-data" id="form-setting" class="form-horizontal">
+
+                        <ul class="nav nav-tabs">
+                            <!--遍历分组列表-->
+                            <volist name="groupList" id="group">
+                                <!--$i表示当前遍历序号 如果等于1则给li添加样式-->
+                                <li class="<if condition="$i eq 1">active</if>">
+                                <!--分组id和分组标题-->
+                                <a href="#tab-group-{$group['setting_group_id']}" data-toggle="tab">{$group['group_title']}</a>
+                                </li>
+                            </volist>
+                        </ul>
+
+                        <div class="tab-content">
+                            <!--遍历分组后的配置列表-->
+                            <volist name="settingGroupList" id="settingGroup">
+                                <!--获取到分组id-->
+                                <div class="tab-pane <if condition="$i eq 1">active</if>" id="tab-group-{$key}">
+                                <!--再次遍历，得到分组内的配置项数组-->
+                                <volist name="settingGroup" id="setting">
+                                    <div class="form-group">
+                                        <!--获取到每一组配置项的 下标，配置名称-->
+                                        <label class="col-sm-2 control-label" for="input-{$setting['key']}">{$setting['title']}</label>
+                                        <div class="col-sm-9">
+                                            <!-- 状态值分支 适合用switch-case  判断输出类型 输出相应的内容-->
+                                            <switch name="setting['type_title']">
+                                                <case value="text">
+                                                    <input type="text" name="setting[{$setting['setting_id']}]" value="{$setting['value']}" placeholder="{$setting['title']}" id="input-{$setting['key']}" class="form-control" />
+                                                </case>
+
+                                                <case value="textarea">
+                                                    <textarea rows="5" name="setting[{$setting['setting_id']}]" placeholder="{$setting['title']}" id="input-{$setting['key']}" class="form-control">{$setting['value']}</textarea>
+                                                </case>
+
+                                                <case value="select">  <!--单选-->
+                                                    <select name="setting[{$setting['setting_id']}]" id="select-{$setting['key']}" class="form-control">
+                                                        <!--遍历选项列表-->
+                                                        <volist name="setting['optionList']" id="option">
+                                                            <!--如果选项值等于 配置项里的value 则选中-->
+                                                            <option <if condition="$option['setting_option_id'] eq $setting['value']">selected</if> value="{$option['setting_option_id']}">{$option['option_title']}</option>
+                                                        </volist>
+                                                    </select>
+                                                </case>
+
+                                                <case value="select-multi"> <!--多选  -->
+                                                    <select multiple name="setting[{$setting['setting_id']}][]" id="select-{$setting['key']}" class="form-control">
+                                                        <!--遍历选项列表 name需要设置成数组 -->
+                                                        <volist name="setting['optionList']" id="option">
+                                                            <!--如果配置项里value 数组(字符串形式以逗号炸开成数组)里 含有选项值  则默认选中  in_array(a,b) b数组中是否含有a-->
+                                                            <option <if condition="in_array($option['setting_option_id'], explode(',', $setting['value']))">selected</if> value="{$option['setting_option_id']}">{$option['option_title']}</option>
+                                                        </volist>
+                                                    </select>
+                                                </case>
+
+
+                                            </switch>
+                                        </div>
+                                        <div class="col-sm-1">
+                                            <a href="javascript:;" class="btn btn-default" id="a-setting-update-{$setting['setting_id']}" data-setting_id="{$setting['setting_id']}" setting_id="{$setting['setting_id']}">更新</a>
+                                        </div>
+                                    </div>
+                                </volist>
+
+                        </div>
+                        </volist>
+
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</block>
+
+<block name="appendJS">
+
+    <script>
+        $(function(){
+            // 找到所有的id属性以a-setting-update-开头的a元素
+            // 绑定click事件
+            $('a[id^=a-setting-update-]').click(function(evt) {
+                // 找到对应的表单元素
+                var setting_id = $(this).data('setting_id');
+//                var setting_id = $(this).attr('setting_id'); attr(属性名，设置值)返回或设置指定属性的值
+                // 当前setting_id对表单元素  eq(index)找到集合里的索引所在位置的元素
+                var settingElement = $('[name^="setting['+setting_id +']"]').eq(0);
+//                console.log(settingElement.val()); val()返回或设置 选中元素的值 空表示获取
+//                ajax更新
+                var url = '{:U('ajax')}';
+                var data = {
+                    setting_id: setting_id,
+                    value: settingElement.val(),
+                };
+                //提交数据 得到返回数组 进行弹窗提示
+                $.post(url, data, function(resp) {
+                    if (resp.error == 0) {
+                        alert('更新成功');
+                    } else {
+                        alert('更新失败, ' + resp.errorInfo);
+                    }
+                }, 'json');
+            });
+        });
+
+    </script>
+
+
+</block>

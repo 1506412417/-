@@ -1,0 +1,39 @@
+[ 2016-12-27T00:55:57+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/16.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:03:38+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/39.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:15:43+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/edit.html
+ERR: Think\Model:nonChild方法不存在！
+
+[ 2016-12-27T23:17:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/edit.html
+ERR: Think\Model:nonChild方法不存在！
+
+[ 2016-12-27T23:35:47+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/11.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:43:22+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/1.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:43:23+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/1.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:43:23+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/1.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:43:24+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/1.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:43:26+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/1.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:43:37+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/40.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:44:42+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/40.html
+ERR: 非法操作:delete
+
+[ 2016-12-27T23:44:46+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Category/delete/id/1.html
+ERR: 非法操作:delete
+

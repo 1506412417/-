@@ -1,0 +1,139 @@
+[ 2016-12-22T15:26:17+08:00 ] 127.0.0.1 /php4/buyplus/back/Code/crud
+ERR: 模板不存在:./Application/Back/View/Code/crud.html
+
+[ 2016-12-22T15:28:23+08:00 ] 127.0.0.1 /php4/buyplus/back/Code/crud
+ERR: 模板不存在:./Application/Back/View/Code/crud.html
+
+[ 2016-12-22T15:28:24+08:00 ] 127.0.0.1 /php4/buyplus/back/Code/crud
+ERR: 模板不存在:./Application/Back/View/Code/crud.html
+
+[ 2016-12-22T19:41:26+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/even/add
+ERR: 无法加载控制器:Even
+
+[ 2016-12-22T19:41:42+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/add
+ERR: 模板不存在:./Application/Back/View/Event/set.html
+
+[ 2016-12-22T19:41:53+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/even/add
+ERR: 无法加载控制器:Even
+
+[ 2016-12-22T22:31:18+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/even/list
+ERR: 无法加载控制器:Even
+
+[ 2016-12-22T22:31:26+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:57+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:57+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:31:58+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:41+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:42+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:43+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:43+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:43+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:43+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:44+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:44+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:44+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:44+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:45+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:54+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:55+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:55+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:55+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:34:55+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event/list
+ERR: 1054:Unknown column 'sort_number' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY sort_number asc LIMIT 0,4  
+
+[ 2016-12-22T22:35:40+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/event
+ERR: 非法操作:index
+
+[ 2016-12-22T22:37:08+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Code/event/add
+ERR: 非法操作:event
+
+[ 2016-12-22T22:37:54+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Event/list.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY  asc LIMIT 0,4  
+
+[ 2016-12-22T22:39:29+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Event/list
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc LIMIT 0,4' at line 1
+ [ SQL语句 ] : SELECT * FROM `sun_event` ORDER BY  asc LIMIT 0,4  
+

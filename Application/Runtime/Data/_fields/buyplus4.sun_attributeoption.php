@@ -1,0 +1,1 @@
+a:5:{i:0;s:19:"attribute_option_id";i:1;s:12:"attribute_id";i:2;s:12:"option_value";s:3:"_pk";s:19:"attribute_option_id";s:5:"_type";a:3:{s:19:"attribute_option_id";s:16:"int(10) unsigned";s:12:"attribute_id";s:16:"int(10) unsigned";s:12:"option_value";s:11:"varchar(32)";}}

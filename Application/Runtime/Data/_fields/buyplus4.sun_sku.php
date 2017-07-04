@@ -1,0 +1,1 @@
+a:5:{i:0;s:6:"sku_id";i:1;s:5:"title";i:2;s:11:"sort_number";s:3:"_pk";s:6:"sku_id";s:5:"_type";a:3:{s:6:"sku_id";s:16:"int(10) unsigned";s:5:"title";s:10:"varchar(8)";s:11:"sort_number";s:7:"int(11)";}}

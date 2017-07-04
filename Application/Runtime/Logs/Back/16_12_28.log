@@ -1,0 +1,12 @@
+[ 2016-12-28T11:51:04+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Code/crud/step/field.html
+ERR: 1146:Table 'buyplus4.sun_sdvs' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sun_sdvs`
+
+[ 2016-12-28T11:52:51+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Code/crud/step/field.html
+ERR: 1146:Table 'buyplus4.sun_sevent' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sun_sevent`
+
+[ 2016-12-28T11:53:13+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Code/crud/step/field.html
+ERR: 1146:Table 'buyplus4.sun_sevent' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sun_sevent`
+

@@ -1,0 +1,12 @@
+[ 2017-01-29T01:53:13+08:00 ] 127.0.0.1 /entry.php/Back/Manage/index.html
+ERR: 模板不存在:./Application/Back/View/Manage/index.html
+
+[ 2017-01-29T16:04:34+08:00 ] 127.0.0.1 /entry.php/Back/admin/index
+ERR: 非法操作:index
+
+[ 2017-01-29T16:04:41+08:00 ] 127.0.0.1 /entry.php/Back/Admin/index
+ERR: 非法操作:index
+
+[ 2017-01-29T16:05:00+08:00 ] 127.0.0.1 /entry.php/Back/admin/index
+ERR: 非法操作:index
+

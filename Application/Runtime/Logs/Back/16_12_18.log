@@ -1,0 +1,628 @@
+[ 2016-12-18T18:52:15+08:00 ] 127.0.0.1 /php4/buyplus/back/brand.add
+ERR: 无法加载控制器:Brand.add
+
+[ 2016-12-18T18:52:21+08:00 ] 127.0.0.1 /php4/buyplus/back/brandadd
+ERR: 无法加载控制器:Brandadd
+
+[ 2016-12-18T18:52:52+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T18:52:55+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T18:54:21+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Manage/index.html
+ERR: 无法加载控制器:Manage
+
+[ 2016-12-18T18:56:45+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=%E5%A5%8B%E6%96%97
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:18:02+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=rgf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:18:02+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=rgfb
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:18:02+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=rgfbd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:31:47+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:31:47+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdsd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:31:48+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sds
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:31:49+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:31:49+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:43:40+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=erd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:43:40+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=erdg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:43:40+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=erdgnh
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:43:40+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=erdgnhm
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:46:33+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=nh
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:46:33+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=nhjy
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:46:33+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=nhjyj
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:51:34+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=nh
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:52:57+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=rg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003188s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:53:47+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax.htmlArray?title=%E9%BB%98%E8%AE%A45
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+ERR: 非法操作:ajax.htmlArray
+
+[ 2016-12-18T19:57:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:08+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:10+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdcsdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:11+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdcsdccd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:11+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdcsdccdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:13+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdcsdccdcc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:14+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdcsdccdccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:19+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdcsdccdcccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:21+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdcsdcsdccdccccd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:51+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sdc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:51+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T19:57:51+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+ERR: 非法操作:ajax
+
+[ 2016-12-18T20:07:04+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `sun_brand` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ss' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2016-12-18T20:07:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003259s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sss' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-12-18T20:07:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssss' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2016-12-18T20:07:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sssss' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001981s ]
+
+[ 2016-12-18T20:07:05+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssssss' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2016-12-18T20:07:06+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sssssss' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-12-18T20:07:06+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssssssss' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2016-12-18T20:07:06+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sssssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sssssssss' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2016-12-18T20:07:06+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssssssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssssssssss' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2016-12-18T20:07:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sssssssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sssssssssss' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-12-18T20:07:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssssssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssssssssss' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001472s ]
+
+[ 2016-12-18T20:07:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sssssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sssssssss' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2016-12-18T20:07:07+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssssssss' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002288s ]
+
+[ 2016-12-18T20:07:08+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sssssss' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2016-12-18T20:07:08+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003833s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssssss' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-12-18T20:07:08+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sssss' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2016-12-18T20:07:08+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=ssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'ssss' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002161s ]
+
+[ 2016-12-18T20:07:08+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sss' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-12-18T20:07:34+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=dfvdsf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005386s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'dfvdsf' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001853s ]
+
+[ 2016-12-18T20:10:29+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=We
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'We' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2016-12-18T20:10:29+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=WEr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'WEr' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-12-18T20:10:29+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=WErf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'WErf' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001128s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-12-18T20:33:51+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002332s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-12-18T20:34:27+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002330s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001252s ]
+
+[ 2016-12-18T20:34:30+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=su
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'su' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-12-18T20:34:30+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 's' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002072s ]
+
+[ 2016-12-18T20:35:12+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=su
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'su' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2016-12-18T20:35:12+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-12-18T20:35:17+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2016-12-18T20:35:25+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-12-18T20:36:52+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-12-18T20:39:17+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002121s ]
+
+[ 2016-12-18T20:39:27+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=dsfdfv
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'dsfdfv' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-12-18T20:39:29+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=su
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'su' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-12-18T20:39:29+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-12-18T20:43:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=su
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003928s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'su' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-12-18T20:43:09+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 's' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2016-12-18T20:43:20+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-12-18T20:46:42+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=su
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'su' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-12-18T20:46:42+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 's' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-12-18T20:46:43+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=df
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001624s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'df' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-12-18T20:46:47+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'd' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2016-12-18T20:46:48+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 's' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2016-12-18T20:46:48+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=su
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'su' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-12-18T20:46:48+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=sun
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'sun' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2016-12-18T20:51:45+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=su
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 'su' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-12-18T20:51:45+08:00 ] 127.0.0.1 /php4/buyplus/index.php/Back/Brand/ajax/operate/titleUnique.html?title=s
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+SQL: SELECT * FROM `sun_brand` WHERE `title` = 's' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
